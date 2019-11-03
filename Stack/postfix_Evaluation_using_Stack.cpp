@@ -28,7 +28,7 @@ int main()
       char arr[100];
       int i;
       stack<int> s;
-      cout<<"Enter Postfix Expression to Evaluate : ";
+      cout<<"Enter Postfix Expression to Evaluate : "; //Eg INPUT : 23*54*+9- where each number is a seperate digit (2*3)
       cin.get(arr,100);
       for(i=0;i<strlen(arr);i++)
       {
